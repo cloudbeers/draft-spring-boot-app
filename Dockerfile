@@ -1,4 +1,4 @@
-FROM maven:3.5-jdk-8-alpine as BUILD
+FROM maven:3.5-jdk-8 as BUILD
 
 COPY . /usr/src/app
 RUN mvn --batch-mode -f /usr/src/app/pom.xml clean package
