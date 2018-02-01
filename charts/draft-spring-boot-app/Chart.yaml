@@ -1,4 +1,4 @@
 apiVersion: v1
 description: A Helm chart for Kubernetes
 name: draft-spring-boot-app
-version: v0.1.0
+version: 0.0.1
